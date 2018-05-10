@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA710E8420A470AC00D963BA /* Tela2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA710E8220A470AC00D963BA /* Tela2ViewController.swift */; };
+		CA710E8520A470AC00D963BA /* Tela3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA710E8320A470AC00D963BA /* Tela3ViewController.swift */; };
 		CAA060AD20A1E0A9007F847C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA060AC20A1E0A9007F847C /* AppDelegate.swift */; };
 		CAA060AF20A1E0A9007F847C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA060AE20A1E0A9007F847C /* ViewController.swift */; };
 		CAA060B220A1E0A9007F847C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA060B020A1E0A9007F847C /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA710E8220A470AC00D963BA /* Tela2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tela2ViewController.swift; sourceTree = "<group>"; };
+		CA710E8320A470AC00D963BA /* Tela3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tela3ViewController.swift; sourceTree = "<group>"; };
 		CAA060A920A1E0A9007F847C /* My1stApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My1stApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA060AC20A1E0A9007F847C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAA060AE20A1E0A9007F847C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 		CAA060AB20A1E0A9007F847C /* My1stApp */ = {
 			isa = PBXGroup;
 			children = (
+				CA710E8220A470AC00D963BA /* Tela2ViewController.swift */,
+				CA710E8320A470AC00D963BA /* Tela3ViewController.swift */,
 				CAA060AC20A1E0A9007F847C /* AppDelegate.swift */,
 				CAA060AE20A1E0A9007F847C /* ViewController.swift */,
 				CAA060B020A1E0A9007F847C /* Main.storyboard */,
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA710E8520A470AC00D963BA /* Tela3ViewController.swift in Sources */,
 				CAA060AF20A1E0A9007F847C /* ViewController.swift in Sources */,
 				CAA060AD20A1E0A9007F847C /* AppDelegate.swift in Sources */,
+				CA710E8420A470AC00D963BA /* Tela2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +444,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = les.foundatin.My1stApp;
+				PRODUCT_BUNDLE_IDENTIFIER = les.foundation.My1stApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,7 +461,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = les.foundatin.My1stApp;
+				PRODUCT_BUNDLE_IDENTIFIER = les.foundation.My1stApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
